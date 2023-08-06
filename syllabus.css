@@ -1,0 +1,209 @@
+.mi {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+  /* font-weight: bold; */
+  font-family: 'Patua One', cursive;
+  /* border: 2px solid gray; */
+}
+
+.pyb {
+  background-color: black;
+  color: white;
+  height: 40px;
+  overflow: none;
+  padding: 10px;
+}
+
+.pyb a {
+  text-decoration: none;
+  color: rgb(252, 250, 250);
+
+}
+
+.pyb:hover {
+  background-color: rgb(15, 252, 7);
+  color: black;
+}
+
+.pyb a h6:hover {
+  background-color: rgb(6, 251, 96);
+  color: black;
+}
+
+.pyt {
+  background-color: white;
+  color: black;
+  height: 40px;
+  overflow: none;
+  padding: 10px;
+}
+
+.pyt a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.pyt:hover {
+  background-color: rgb(63, 248, 17);
+  color: black;
+}
+
+.pyt a h6:hover {
+  background-color: rgb(7, 244, 31);
+  color: black;
+} 
+
+.jj {
+  height: 40px;
+  /* border-left: 2px solid rgb(28, 54, 74); */
+  color: white;
+  background-color: rgb(49, 89, 118);
+}
+
+nav {
+  margin: 0px;
+  padding: 0px;
+
+  background-color: rgb(49, 89, 118);
+}
+
+.mii {
+  display: flex;
+  text-align: center;
+  justify-content: right;
+  /* border: 2px solid gray; */
+
+}
+
+.miii {
+  display: flex;
+  text-align: center;
+  justify-content: left;
+  /* border: 2px solid gray; */
+
+}
+
+.l1 {
+  background-color: rgb(158, 172, 192);
+  /* border-right: 2px solid black; */
+}
+
+.l2 {
+  background-color: rgb(208, 223, 243);
+  background-size: 100%;
+  /* border-left: 2px solid black; */
+}
+
+.note {
+  height: 40px;
+  border: 1px solid red;
+  background-color: rgb(252, 230, 230);
+}
+
+.he {
+  /* border-bottom: 3px solid rgb(6, 6, 5); */
+  height: 90px;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.l {
+  background-color: aqua;
+}
+
+.frame:hover {
+  transform: scale(1.1);
+  transition-duration: 0.8s;
+}
+
+.re:hover {
+  transform: scale(1.04);
+  transition-duration: 0.7s;
+}
+
+.ba {
+  background-color: rgb(28, 54, 74);
+}
+
+.red:hover {
+  transform: scale(1.01);
+  transition-duration: 0.7s;
+}
+
+.row a:hover {
+  background-color: rgb(28, 54, 74);
+  color: white
+}
+
+/* summary{
+      font-weight: bold;
+    } */
+.su {
+  font-weight: bold;
+  height: 40px;
+  margin-top: 10px;
+}
+
+details:hover {
+  background-color: rgb(28, 54, 74);
+  color: white
+}
+
+.lin {
+  text-decoration: none;
+  color: rgb(28, 54, 74);
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  /* height: 40px; */
+
+  background-color: rgb(128, 187, 199);
+}
+
+.hh {
+  background-color: white;
+  height: 1px;
+}
+
+.hee {
+  font-size: small;
+}
+
+.redd {
+  background-color: red;
+  display: flex;
+  padding: 7px;
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
+  color: white;
+}
+
+.container1 {
+  /* width: 70%; */
+  margin-bottom: 14%;
+  height: 300px;
+  border: 2px solid rgb(28, 54, 74);
+  border-radius: 8px;
+  color: rgb(255, 0, 0);
+  background-color: rgb(196, 216, 232);
+  overflow: hidden;
+}
+
+.container2 {
+  color: white;
+  height: 40px;
+  background-color: black;
+  padding-top: 8px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
