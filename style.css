@@ -38,6 +38,7 @@ nav {
   display: flex;
   text-align: center;
   justify-content: left;
+  color: red;
   /* border: 2px solid gray; */
 
 }
