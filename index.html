@@ -9,600 +9,604 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
+  <link rel="stylesheet" href="style.css">
 
-    footer {
-      display: flex;
-      background-color: rgb(18, 64, 75);
-      color: aliceblue;
-      flex-direction: column;
-      /* height: 250px; */
-      justify-content: center;
-      align-items: center;
-      text-align: left;
-      padding: 15px 0px;
-      /* margin: 10px 0px; */
-      /* padding-bottom: 20px; */
-    }
-
-    .container2 {
-      font-size: 12px;
-      text-decoration: none;
-    }
-    
-    .ft{
-      background-color: rgb(22, 94, 130);
-      display: flex;
-      text-align: center;
-      justify-content: center;
-      text-decoration: none;
-      padding-top: 2px;
-      height: 30px;
-      color: white;
-      
-    }
-
-    .foot {
-      font-weight: bold;
-    }
-    .none{
-      text-decoration: none;
-      color: white;
-    }
-    a:hover{
-      color: white;
-    }
-    .container10{
-      height: 70px;
-      width: 70px;
-      position: fixed;
-      display: flex;
-    margin: 520px 350px;
-
-      z-index: 1;
-      background-color: #ffff00;
-      border-radius: 35px;
-      justify-content: center;
-      align-items: center;
-      color: black;
-      text-align: center;
-
-    }
-    @media (min-width:0px) and (max-width:1100px){
-    #first{
-        display: none;
-      }
-      #second{
-        display: block;
-      }
-    }
-    @media (min-width:1100px) and (max-width:3457px){
-      #first{
-      text-align: center;
-        display: block;
-    }
-    #second{
-        display: none;
-    }
-}
-  </style>
-  <title>highwaydelight</title>
+  <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+  <title>Computer Science & Engineering</title>
 </head>
 
 <body>
-  
-    <div id="first">Error 404-Not found...<img src="error.png" width="70px" alt=""> <br> website only for android & iphone  user's, please go through mobile only.</div>
-  
+
+
+  <div id="first">Error 404-Not found...<img src="error.png" width="70px" alt=""> <br> website only for desktop user's, please go through desktop only.</div>
   <div id="second">
-    
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-    <div class="container-fluid  ">
-      <img src="logo.png" width="90px" height="50px" alt="">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
+    <nav class=" fixed-top overflow-hidden navbar-light bg-light">
 
-
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-
-
-  </nav>
-
-  <div class="container">
-    <div class="container10 rtl">My <br> Card</div>
-  </div>
-
-  <div>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner carousel-fade">
-        <div class="carousel-item active">
-          <img src="f1.jpeg" class="d-block w-100" height="160px" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h1 class="min-width-300">Welcome to Highway Delight</h1>
-            <h6>क्यों करे खुद का वक्त बर्बाद जब खेल स्वाद भोजन और फर्स्ट क्लास सर्विस एक ही साथ.</h6>
-            <button type="button" class="btn btn-success">Book Now</button>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="f2.jpeg" class="d-block w-100" height="160px" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h1>Welcome to Highway Delight</h1>
-            <h6>क्यों करे खुद का वक्त बर्बाद जब खेल स्वाद भोजन और फर्स्ट क्लास सर्विस एक ही साथ.</h6>
-            <button type="button" class="btn btn-success">Book Now</button>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="f3.jpeg" class="d-block w-100" height="160px" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h1>Welcome to Highway Delight</h1>
-            <h6>क्यों करे खुद का वक्त बर्बाद जब खेल स्वाद भोजन और फर्स्ट क्लास सर्विस एक ही साथ.</h6>
-            <button type="button" class="btn btn-success">Book Now</button>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-
-  <div class="container">
-
-
-    <div class="row mb-2 my-4">
-      <div class="col-md-6">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-          <div class="col p-4 d-flex flex-column position-static container-fluid">
-
-            <h3 class="mb-0">Family Dinner</h3>
-            <strong class="d-inline-block mb-2 text-success">Open</strong>
-            <p class="card-text mb-auto">Here are some captions for dinner with family that you may like. A strong
-              family has well-worn seats at the dinner table. Dinner is better when we eat together.</p>
-            
-          </div>
-          <div class="col-auto d-none d-lg-block active">
-            <img src="pic2.jpeg" class="bd-placeholder-img" width="250" height="250" alt="">
-
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-          <div class="col p-4 d-flex flex-column position-static">
-
-            <h3 class="mb-0">Birthday Party</h3>
-            <strong class="d-inline-block mb-2 text-success">Open</strong>
-
-            <p class="card-text mb-auto">Might have partied too hard at your b’day party. No regrets. Life’s too short
-              to not celebrate every chance you get!</p>
-            
-          </div>
-          <div class="col-auto d-none d-lg-block">
-            <img src="birthday.jpg" class="bd-placeholder-img" width="250" height="250" alt="">
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-          <div class="col p-4 d-flex flex-column position-static">
-
-            <h3 class="mb-0">Couples</h3>
-            <strong class="d-inline-block mb-2 text-success">Open</strong>
-
-            <p class="mb-auto">A relationship is when one person is always right and the other person is the boyfriend.
-            </p>
-           
-          </div>
-          <div class="col-auto d-none d-lg-block">
-            <img src="couple.jpeg" class="bd-placeholder-img" width="250" height="250" alt="">
-
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-          <div class="col p-4 d-flex flex-column position-static">
-
-            <h3 class="mb-0">Special Events Party</h3>
-            <strong class="d-inline-block mb-2 text-success">Open</strong>
-
-            <p class="mb-auto">Taco ’bout a party. Make the most out of tonight and worry about it all tomorrow. This is
-              my moment I just feel so alive.</p>
-          
-          </div>
-          <div class="col-auto d-none d-lg-block">
-            <img src="pic1.jpeg" class="bd-placeholder-img" width="250" height="250" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="container d-block w-100 ">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="birthday.jpg" class="d-block w-100" height="160px" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="pic1.jpeg" class="d-block w-100" height="160px" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="pic2.jpeg" class="d-block w-100" height="160px" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="album py-5 bg-light">
-      <div class="container">
-
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col ">
-            <div class="card shadow-sm ">
-              <img src="snacks.jpg" class="bd-placeholder-img card-img-top" width="100%" height="170" alt="">
-
-              <div class="card-body ">
-                <h4></h4>
-                <h5>Snacks</h5>
-                <p class="card-text">snacks that cater to specific dietary preferences. The best part is that all of
-                  their snacks are guilt-free, so you can munch away without any guilt or regrets. I highly recommend
-                  Snackible for anyone who is looking for healthier snack options.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-success"><a href="registration.html" class="none" >Order Now</a></button>&nbsp;
-                    <button type="button" class="btn btn-outline-warning">Add to Card</button>
-
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col ">
-            <div class="card shadow-sm">
-              <img src="tanduri chicken.JPG" class="bd-placeholder-img card-img-top" width="100%" height="170" alt="">
-
-              <div class="card-body ">
-                <h4></h4>
-                <h5>Tandoori Chicken</h5>
-                <p class="card-text">Tandoori chicken has a warm flavor from spices like garam masala, turmeric, ginger,
-                  and cayenne pepper. This easy marinade for tandoori chicken is made with simple ingredients: Full-fat
-                  Greek yogurt – The main component of tandoori chicken marinade is yogurt! </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-success"><a href="registration.html" class="none" >Order Now</a></button>&nbsp;
-                    <button type="button" class="btn btn-outline-warning">Add to Card</button>
-
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col ">
-            <div class="card shadow-sm">
-              <img src="chicken tikka.webp" class="bd-placeholder-img card-img-top" width="100%" height="170" alt="">
-
-              <div class="card-body ">
-                <h4></h4>
-                <h5>Chicken tikka</h5>
-                <p class="card-text">Chicken tikka is a chicken dish originating in the Indian subcontinent during the
-                  Mughal era, the dish is popular in India</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-success"><a href="registration.html" class="none" >Order Now</a></button>&nbsp;
-                    <button type="button" class="btn btn-outline-warning">Add to Card</button>
-
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col ">
-            <div class="card shadow-sm">
-              <img src="panner tikka.JPG" class="bd-placeholder-img card-img-top" width="100%" height="170" alt="">
-
-              <div class="card-body ">
-                <h4></h4>
-                <h5>Paneer tikka</h5>
-                <p class="card-text">Paneer Tikka Masala can literally be translated to grilled cottage cheese in a
-                  spiced gravy!</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-success"><a href="registration.html" class="none" >Order Now</a></button>&nbsp;
-                    <button type="button" class="btn btn-outline-warning">Add to Card</button>
-
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col ">
-            <div class="card shadow-sm">
-              <img src="chicken garlic tikka.jpg" class="bd-placeholder-img card-img-top" width="100%" height="170"
-                alt="">
-              <div class="card-body ">
-                <h4></h4>
-                <h5>Chicken garlic tikka</h5>
-                <p class="card-text">It is a spicy, sweet, and slightly sour crispy appetizer made with chicken, garlic
-                  tikka.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-success"><a href="registration.html" class="none" >Order Now</a></button>&nbsp;
-                    <button type="button" class="btn btn-outline-warning">Add to Card</button>
-
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col ">
-            <div class="card shadow-sm">
-              <img src="harra bhara kabab.jpg" class="bd-placeholder-img card-img-top" width="100%" height="170" alt="">
-              <div class="card-body ">
-                <h4></h4>
-                <h5>Hara bhara Kabab</h5>
-                <p class="card-text">Hara Bhara Kabab are popular North Indian snack patties made with plenty of leafy
-                  greens and vegetables like spinach, coriander leaves, green peas, potatoes and spices. The name hara
-                  bhara kabab means kababs filled with greens.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-success"><a href="registration.html" class="none" >Order Now</a></button>&nbsp;
-                    <button type="button" class="btn btn-outline-warning">Add to Card</button>
-
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col ">
-            <div class="card shadow-sm">
-              <img src="tanduri roti.jpg" class="bd-placeholder-img card-img-top" width="100%" height="170" alt="">
-
-              <div class="card-body ">
-                <h4></h4>
-                <h5>Tandoori roti</h5>
-                <p class="card-text">Tandoori Roti, mix maida, whole wheat flour, curd, salt, oil, sugar and baking
-                  powder in a bowl. Add water slowly and make a tight dough.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-success"><a href="registration.html" class="none" >Order Now</a></button>&nbsp;
-                    <button type="button" class="btn btn-outline-warning">Add to Card</button>
-
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col ">
-            <div class="card shadow-sm">
-              <img src="tanduri butter roti.jpg" class="bd-placeholder-img card-img-top" width="100%" height="170"
-                alt="">
-              <div class="card-body ">
-                <h4></h4>
-                <h5>Tandoori butter roti</h5>
-                <p class="card-text">tandoori butter roti we have used curd instead of yeast as it helps in fermentation
-                  of the dough. Sugar is add which helps in fermentation and also to balance out the flavour, gives
-                  beautiful colour to the rotis.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-success"><a href="registration.html" class="none" >Order Now</a></button>&nbsp;
-                    <button type="button" class="btn btn-outline-warning">Add to Card</button>
-
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col ">
-            <div class="card shadow-sm">
-              <img src="lachha paratha.jpg" class="bd-placeholder-img card-img-top" width="100%" height="170" alt="">
-
-              <div class="card-body ">
-                <h4></h4>
-                <h5>Lachha paratha</h5>
-                <p class="card-text">Lachha paratha is quite appetizing to look at, and even more interesting to bite
-                  into, because the layers separated by ghee give a crumbly, melt-in-the-mouth texture.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-success"><a href="registration.html" class="none" >Order Now</a></button>&nbsp;
-                    <button type="button" class="btn btn-outline-warning">Add to Card</button>
-
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col ">
-            <div class="card shadow-sm">
-              <img src="butter nan.jpg" class="bd-placeholder-img card-img-top" width="100%" height="170" alt="">
-
-              <div class="card-body ">
-                <h4></h4>
-                <h5>Butter naan</h5>
-                <p class="card-text">Naan is an Indian bread which is on every restaurant menu. It is a rich Indian
-                  bread that goes well with most Indian gravies. Everyone loves the soft texture of a good Butter naan.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-success"><a href="registration.html" class="none" >Order Now</a></button>&nbsp;
-                    <button type="button" class="btn btn-outline-warning">Add to Card</button>
-
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col ">
-            <div class="card shadow-sm">
-              <img src="aalu paratha.webp" class="bd-placeholder-img card-img-top" width="100%" height="170" alt="">
-
-              <div class="card-body ">
-                <h4></h4>
-                <h5>Aalu paratha</h5>
-                <p class="card-text">Aloo Paratha are popular Indian flatbreads stuffed with a delicious spiced potato
-                  mixture. In Hindi, Aloo means “Potatoes” and Paratha means “Layered Flatbreads”. </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-success"><a href="registration.html" class="none" >Order Now</a></button>&nbsp;
-                    <button type="button" class="btn btn-outline-warning">Add to Card</button>
-
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col ">
-            <div class="card shadow-sm">
-              <img src="panner paratha.jpg" class="bd-placeholder-img card-img-top" width="100%" height="170" alt="">
-
-              <div class="card-body ">
-                <h4></h4>
-                <h5>Paneer paratha</h5>
-                <p class="card-text">Paneer paratha is a popular North Indian flatbread made with whole wheat flour
-                  dough and stuffed with savory, spiced, grated paneer (Indian cottage cheese) stuffing.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-success"><a href="registration.html" class="none" >Order Now</a></button>&nbsp;
-                    <button type="button" class="btn btn-outline-warning">Add to Card</button>
-
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col ">
-            <div class="card shadow-sm">
-              <img src="garlic nan.webp" class="bd-placeholder-img card-img-top" width="100%" height="170" alt="">
-
-              <div class="card-body ">
-                <h4></h4>
-                <h5>Garlic naan</h5>
-                <p class="card-text">Mostly prepared during parties and celebrations, the list of curries to pair with
-                  garlic naan are endless. However, it pairs well with Malai Kofta, Butter Chicken, Shahi Paneer, and
-                  Dal Makhni.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-success"><a href="registration.html" class="none" >Order Now</a></button>&nbsp;
-                    <button type="button" class="btn btn-outline-warning">Add to Card</button>
-
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <hr>
-  
-
-  <div class="container3">
-    <a href="#" class="ft">Back to top</a>
-   
-  </div>
-  <div class="container1 ">
-
-    <footer>
-      <div class="container">
+      <div class="he ">
         <div class="row">
-          <div class="col-3">
-            <img src="logo1.png" height="50px" width="70px" alt="">
-            <p class="container2 foot">©2023
-              Highway Delight
-            </p>
+          <div class="col-4 my-1 mii">
+            <img src="icon1.png" alt="" width="150px" height="90px">
+
           </div>
-          <div class="col-5">
+          <div class="col-4 mi my-2">
+            SHRI SAI SHIKSHAN SANTHA'S <br>
+            NAGPUR INSTITUTE OF TECHNOLOGY <br> DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING (2023-24)
 
-
-            <h6>Contact us</h6>
-            <p class="container2">292X+86C Highway Delight Family Restaurant Dhaba, Kuhi, Maharashtra
-              441202 <br>
-
-              <span class="foot">Owner</span>: Sandeep Hatwar <br>
-              <span class="foot">Mo No</span>: 9595561722
-            </p>
           </div>
-          
-          <div class="col-4">
-          <h6>Connect with Us</h6>
-          
-              
-              <a href="" class="container2">Facebook</a><br>
-              <a href="https://www.instagram.com/highway_delight_hd_restaurant" class="container2">Instagram</a><br>
-              
-              
+          <div class="col-4 my-3 miii">
+
+            <img src="icon2.png" alt="" width="100px" height="70px">
+           <p> Department data not available.</p>
           </div>
         </div>
+
+      </div>
+    </nav>
+    <div class="he"></div>
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-2 l1">
+          <div class="row">
+            <div class="col-12  jj">
+              <p class="my-2">Important link</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="hh"></div>
+          </div>
+          <div class="row">
+            <a href="http://www.nit.edu.in/" class="lin ">
+              <p class="my-2" target="_blank">About Us</p>
+            </a>
+          </div>
+          <div class="row">
+            <div class="hh"></div>
+          </div>
+          <div class="row">
+            <div class="hh"></div>
+          </div>
+          <div class="row">
+            <a href="http://www.nit.edu.in/AUDITED_STATEMENT.php" class="lin " target="_blank">
+              <p class="my-2">Adutited Statement</p>
+            </a>
+          </div>
+          <div class="row">
+            <div class="hh"></div>
+          </div>
+          <div class="row">
+            <div class="hh"></div>
+          </div>
+          <div class="row">
+            <a href="http://www.nit.edu.in/Grievance%20Redressal%20Mechanism.php" class="lin " target="_blank">
+              <p class="my-2">Grievance Redressal Mechanism</p>
+            </a>
+          </div>
+          <div class="row">
+            <div class="hh"></div>
+          </div>
+          <div class="row">
+            <div class="hh"></div>
+          </div>
+          <div class="row">
+            <a href="http://www.nit.edu.in/feedback.php" class="lin " target="_blank">
+              <p class="my-2">Feedback</p>
+            </a>
+          </div>
+          <div class="row">
+            <div class="hh"></div>
+          </div>
+          <div class="row">
+            <div class="hh"></div>
+          </div>
+          <div class="row">
+            <a href="https://www.aicte-india.org/sites/default/files/list-suggested-books-indian-authors-publishers.pdf"
+              class="lin " target="_blank">
+              <p class="my-2">AICTE Suggested Engineering Books</p>
+            </a>
+          </div>
+          <div class="row">
+            <div class="hh"></div>
+          </div>
+          <div class="row">
+            <div class="hh"></div>
+          </div>
+
+          <div class="row">
+            <a href="http://www.nit.edu.in/lib/NIT-Outreach%20Activities.pdf" class="lin " target="_blank">
+              <p class="my-2">NIT-Outreach Activities</p>
+            </a>
+          </div>
+          <div class="row">
+            <div class="hh"></div>
+          </div>
+
+          <div class="row">
+            <div class="hh"></div>
+          </div>
+          <div class="row">
+            <a href="http://www.nit.edu.in/Download.php" class="lin " target="_blank">
+              <p class="my-2">Downloads</p>
+            </a>
+          </div>
+          <div class="row">
+            <div class="hh"></div>
+          </div>
+          <div class="row">
+            <div class="hh"></div>
+          </div>
         </div>
+        <div class="col-10 l2 ">
+          <div class="row">
+            <div class=""></div>
+          </div>
+          <div class=" navbar-expand-md  navbar-dark row jj ">
+
+            <div class="navbar-nav me-auto  mb-md-0">
+              <div class="nav-item">
+                <a class="nav-link active ba" aria-current="page" href="index.html">About</a>
+              </div>
+
+              <li class="nav-item">
+                <a class="nav-link" href="achievement.html">Achievement</a>
+              </li>
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="syllabus.html" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Syllabus
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="sem3.html">Sem 3</a></li>
+                  <li><a class="dropdown-item" href="sem4.html">Sem 4</a></li>
+                  <li><a class="dropdown-item" href="sem5.html">Sem 5</a></li>
+                  <li><a class="dropdown-item" href="sem6.html">Sem 6</a></li>
+                  <li><a class="dropdown-item" href="sem7.html">Sem 7</a></li>
+                  <li><a class="dropdown-item" href="sem8.html">Sem 8</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Report to lab</a></li>
+                  <li><a class="dropdown-item" href="#">Contact us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="laboratory.html">Library Details</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="forum.html">Forum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="industrialvisit.html">Industrial visit</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="seminar.html">Seminar</a>
+              </li>
+
+
+            </div>
+
+
+          </div>
+
+          <!-- </div> -->
+          <!-- </div> -->
+
+          <div class="container-fluid">
+            <div class="note my-2 row">
+              <div class="col-1 redd  ">IMPORTANT</div>
+              <marquee behavior="" direction="left" onmouseout="this.start()" scrolldelay="60" scrollamount="5"
+                onmouseover="this.stop()" class="my-1 col-11">
+                <img src="large-dia7.gif" alt=""> This website created for education perpose <img src="new.gif" alt="">
+                
+              </marquee>
+            </div>
+
+          </div>
+
+
+          <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
+                aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                class="active" aria-current="true"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                class=""></button>
+            </div> -->
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <img src="desk.jpg" class="bd-placeholder-img" width="100%" height="350px" alt="">
+
+                <div class="container">
+                  <div class="carousel-caption text-start">
+                    <h2>WELCOME TO ALL</h2>
+                    <p>In the NAGPUR INSTITUTE OF TECHNOLOGY, NAGPUR</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <img src="dept1.png" class="bd-placeholder-img" width="100%" height="350px" alt="">
+
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h2>COMPUTER SCIENCE & ENGINEERING</h2>
+                    <p>Admission procedure and eligibility in Nagpur Institute of Technology</p>
+                    <!-- <p><a class="btn btn-lg btn-primary" href="pay.jpeg">Learn more</a></p> -->
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="i1.jpeg" class="bd-placeholder-img" width="100%" height="350px" alt="">
+
+                <div class="container">
+                  <div class="carousel-caption text-end">
+                    <h2>Placement</h2>
+                    <p>Taking the importance of these responsibilities into considerations we are trying to develop
+                      unique characteristics in students by shaping them with not only academic but also industrial
+                      education.
+                    </p>
+                    <!-- <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+          <!-- Marketing messaging and featurettes
+            ================================================== -->
+          <!-- Wrap the rest of the page in another container to center all the content. -->
+
+          <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row my-4">
+              <div class="col-lg-4 frame">
+                <img src="hod1.jpeg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="">
+
+                <h3>Dr.Shrikant Zade</h3>
+                <p>Head of Department</p>
+
+
+              </div><!-- /.col-lg-4 -->
+              <div class="col-lg-4 frame">
+                <img src="shubham.jpeg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="">
+                <h3>Prof.Shubham Unhale</h3>
+                <p>Dept.Exam Coordinator</p>
+
+              </div><!-- /.col-lg-4 -->
+              <div class="col-lg-4 frame">
+                <img src="sajid.jpeg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="">
+
+                <h2>Prof.Mohammad Sajid</h2>
+                <p>Dept.Academic Coordinator</p>
+
+              </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+            <hr>
+            <div class="container red">
+              <h3>About Department</h3>
+              <p>
+
+                Developing good engineers is more difficult than developing good software. So ultimately, the
+                responsibility
+                of teacher is much more than any other designations. Because everyone initiates his/her journey from a
+                particular teacher. Taking the importance of these responsibilities into considerations we are trying to
+                develop unique characteristics in students by shaping them with not only academic but also industrial
+                education. <br>
+                Inspiring from our honorable principal and respecting his experience in educational field we are
+                following his
+                principals for developing policies of department.
+                <br><br>
+
+                In view of present global challenges, we need to train our students with following values: <br>
+
+                1) Discipline <br>
+                2) Academics - project based learning <br>
+                3) Inclusive growth <br><br>
+                Therefore, I will specifically work upon following agendas on priority with cooperation and contribution
+                from
+                you all. <br>
+
+                1) Project based learning <br>
+                2) Involvement of parents <br>
+                3) Societal projects <br>
+                4) Industry interaction <br>
+                5) Raising core competencies and extension of education. <br>
+                6) Research projects and publication. <br>
+                7) MOU, collaborative projects and consultancy. <br>
+              <h5>Vision</h5>
+              To foster Computer Science & Engineering graduates by imparting quality technical education through need
+              based
+              technical skills with ethical values
+
+              <h5>Mission</h5>
+              * To provide quality initiatives in skill-based teaching learning process to improve technical knowledge
+              in
+              Computer Science & Engineering. <br>
+              * To enhance intellectual capital of stakeholders by providing research and innovation avenues and
+              improved
+              industry interactions <br>
+              * To increase societal connect for need based problems through extra-curricular activities</p>
+            </div>
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <h3>Faculty</h3>
+            <hr>
+            <div class="row my-2 ">
+              <div class="col-sm-6  re">
+                <div class="row cont">
+                  <div class="col-7 p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">Dr.Shrikant zade</h3>
+                    <strong class="d-inline-block mb-2 text-primary">Head of Department</strong>
+                    <strong class="d-inline-block mb-2 text-success">Assistant Professor</strong>
+                    <div class="mb-1 text-muted">Experience 22 Years</div>
+                    <p class="card-text mb-auto">Qualification PHD <br>Paper Presented 45 <br>
+                      Paper Published 45
+                    </p>
+
+                  </div>
+                  <div class="col-4">
+                    <img src="hod1.jpeg" class="bd-placeholder-img" width="200" height="250" alt="">
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6  re">
+                <div class="row cont">
+                  <div class="col-7 p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">Prof.Aparitosh Gahankari</h3>
+                    <strong class="d-inline-block mb-2 text-success">Assistant Professor</strong>
+                    <div class="mb-1 text-muted">Experience 18 Years</div>
+                    <p class="card-text mb-auto">Qualification M.Tech (CSE) <br>Paper Presented 2 <br>
+                      Paper Published 7
+                    </p>
+
+                  </div>
+                  <div class="col-4">
+                    <img src="ag.png" class="bd-placeholder-img" width="200" height="250" alt="">
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 re">
+                <div class="row cont">
+                  <div class="col-7 p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">Prof.Mangesh Sadafale</h3>
+                    <strong class="d-inline-block mb-2 text-success">Assistant Professor</strong>
+                    <div class="mb-1 text-muted">Experience 17 Years</div>
+                    <p class="card-text mb-auto">Qualification M.Tech <br>Paper Presented 2 <br>
+                      Paper Published 2
+                    </p>
+
+                  </div>
+                  <div class="col-4 ">
+                    <img src="ms.png" class="" width="200" height="250" alt="">
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 re">
+                <div class="row cont">
+                  <div class="col-7 p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">Prof.Mohammad Sajid</h3>
+                    <strong class="d-inline-block mb-2 text-success">Assistant Professor</strong>
+                    <div class="mb-1 text-muted">Experience 14 Years</div>
+                    <p class="card-text mb-auto">Qualification M.Tech <br>Paper Presented 0 <br>
+                      Paper Published 10
+                    </p>
+                  </div>
+                  <div class="col-4 d-none d-lg-block">
+                    <img src="mss.png" class="bd-placeholder-img" width="200" height="250" alt="">
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 re">
+                <div class="row cont">
+                  <div class="col-7 p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">Prof.Vaishali Gedam</h3>
+                    <strong class="d-inline-block mb-2 text-success">Assistant Professor</strong>
+                    <div class="mb-1 text-muted">Experience 4 Years</div>
+                    <p class="mb-auto">Qualification M.Tech <br>Paper Presented 1 <br>
+                      Paper Published 5</p>
+
+                  </div>
+                  <div class="col-4">
+                    <img src="vg.png" class="bd-placeholder-img" width="200" height="250" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 re">
+                <div class="row cont">
+                  <div class="col-7 p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">Prof.Nikita Dhanvijay</h3>
+                    <strong class="d-inline-block mb-2 text-success">Assistant Professor</strong>
+                    <div class="mb-1 text-muted">Experience 2 Years</div>
+                    <p class="card-text mb-auto">Qualification M.Tech <br>Paper Presented 1 <br>
+                      Paper Published 1
+                    </p>
+
+                  </div>
+                  <div class="col-4">
+                    <img src="nd.png" class="bd-placeholder-img" width="200" height="250" alt="">
+
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-6 re">
+                <div class="row cont">
+                  <div class="col-7 p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">Prof.Ayaz sheikh</h3>
+                    <strong class="d-inline-block mb-2 text-success">Assistant Professor</strong>
+                    <div class="mb-1 text-muted">Experience 7 Years</div>
+                    <p class="card-text mb-auto">Qualification Master of Engineering <br>Paper Presented 1 <br>
+                      Paper Published 1
+                    </p>
+
+                  </div>
+                  <div class="col-4">
+                    <img src="as.png" class="bd-placeholder-img" width="200" height="250" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 re">
+                <div class="row cont">
+                  <div class="col-7 p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">Prof.Shubham Unhale</h3>
+                    <strong class="d-inline-block mb-2 text-success">Assistant Professor</strong>
+                    <div class="mb-1 text-muted">Experience 2 Years</div>
+                    <p class="card-text mb-auto">Qualification M.Tech <br>Paper Presented 2 <br>
+                      Paper Published 2
+                    </p>
+
+                  </div>
+                  <div class="col-4">
+                    <img src="shubham.jpeg" class="bd-placeholder-img" width="200" height="250" alt="">
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-6 re">
+                <div class="row cont">
+                  <div class="col-7 p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">Prof.Trupti ghate</h3>
+                    <strong class="d-inline-block mb-2 text-success">Assistant Professor</strong>
+                    <div class="mb-1 text-muted">Experience 2 Years</div>
+                    <p class="card-text mb-auto">Qualification B.Tech <br>Paper Presented 1 <br>
+                      Paper Published 1
+                    </p>
+
+                  </div>
+                  <div class="col-4">
+                    <img src="tg.jpeg" class="bd-placeholder-img" width="200" height="250" alt="">
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 re ">
+                <div class="row cont">
+                  <div class="col-7 p-4 d-flex flex-column position-static">
+                    <h3 class="mb-0">Prof.Gauri Kolhe</h3>
+                    <strong class="d-inline-block mb-2 text-success">Assistant Professor</strong>
+                    <div class="mb-1 text-muted">Experience 2 Years</div>
+                    <p class="card-text mb-auto">Qualification M.Tech <br>Paper Presented 1 <br>
+                      Paper Published 1
+                    </p>
+
+                  </div>
+                  <div class="col-4">
+                    <img src="gk.png" class="bd-placeholder-img" width="200" height="250" alt="">
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+            <!-- FOOTER -->
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+
+    <footer class="foot">
+      <div class="container ">
+        <div class="row ">
+          <div class=" col-sm-3">
+            <p id="logo">
+              <img src="icon.png" width="170" height="110" alt="Atena" data-retina="complete">
+            </p>
+          </div>
+          <div class=" col-sm-3 ">
+
+            <h6>MORE ABOUT US</h6>
+            <hr class="h">
+            <a href="http://www.nit.edu.in/about.php " target="_blank">Principal's Desk</a>
+            <!-- <a href="Library.php"> Central Library</a> -->
+            <!-- <li><a href="Naac/criterion_7/Code of conduct.pdf">Code of Conduct for student and Teacher </a></li>-->
+            <a href="http://www.nit.edu.in/Collegefees.php" target="_blank">College Fees</a>
+            <a href="http://www.nit.edu.in/Naac/Code_of_ethics.pdf" target="_blank">Code of Ethics to check Malpractices
+              and Plagiarism in
+              Research</a>
+            <a href="http://www.nit.edu.in/Naac/criterion_7/core_values.pdf" target="_blank">Core Values </a>
+            <a href="http://www.nit.edu.in/Naac/3.2_Extended_Profile.pdf" target="_blank">Sanctioned Post </a>
+            <a href="http://www.nit.edu.in/Stretegic%20plan.pdf" target="_blank">Strategic Plan of the Institute</a>
+            <!-- <a href="contacts.php">Contact Us</a> -->
+            <!-- <li><a href=""> </a></li> -->
+            <!-- <li><a href="Courses.php"></a></li> -->
+
+          </div>
+          <div class="col-sm-3">
+            <h6>ACADEMIC</h6>
+            <hr class="h">
+            <a href="http://www.nit.edu.in/Student_Record_Verification.php" target="_blank">Student Verification</a>
+            <a href="#">Important Dates</a>
+            <!-- <a href="https://www.nagpuruniversity.org/links/UG_Syllabus.htm" target="_blank">Syllabus</a> -->
+            <a href="#">Ask A Query</a>
+            <a href="http://www.nit.edu.in/Naac/criterion_5/6.2.2_ai%20Organogram%20link.pdf">Organogram</a>
+            <a href="#">NIT ARIIA 2021 Report</a>
+
+
+
+          </div>
+          <div class=" col-sm-3">
+            <h6>CONTACT US</h6>
+            <hr class="h">
+
+            <p><b> Address&nbsp;:&nbsp; </b> Campus Survey No. 13/2, Mahurzari, Near Fetri, Katol Road, Nagpur-441501.
+              <br>
+              <br>
+              Corporate Office: 2nd Floor, Midas Heights, Central Bazar Road, Ramdaspeth, Nagpur-440010.
+            </p>
+            <p><b> Phone :&nbsp; </b>+919764974144</p>
+            <p><b> Email :&nbsp; </b><a href="mailto:registrar@nit.edu.in"> registrar@nit.edu.in</a></p>
+            <br>
+
+
+            </ul>
+
+          </div>
+          <hr class="h">
+          <footer class="container">
+            <p class="float-end"><a href="#">Back to top</a></p>
+            <p>© NIT 2022 - All rights reserved. | Made By &nbsp; <a
+                href="https://www.linkedin.com/in/prashant-golhar-b70ab823a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bv%2FqmDuqXSWmRjkTYUWGCwQ%3D%3D"
+                target="_blank"><b>Prashantgolhar</b></a>
+            </p>
+          </footer>
+        </div><!-- End row -->
+      </div><!-- End container -->
     </footer>
+
   </div>
-  </div>
+
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
