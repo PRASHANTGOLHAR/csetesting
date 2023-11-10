@@ -145,7 +145,7 @@ margin-right: 5px;
         display: none;
     }
     #second{
-        display: none;
+        display: block;
     }
 }
 .foot{
